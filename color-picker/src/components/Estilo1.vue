@@ -40,7 +40,6 @@ export default {
       return number
     },
     setValue(){
-      console.log(this.valueToHex(this.value1));
       let value1, value2, value3;
       value1 = this.valueToHex(this.value1);
       value2 = this.valueToHex(this.value2);
